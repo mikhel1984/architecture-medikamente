@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="ITg_CXm29D4Ne8rTg9dl">
+    <mxGraphModel dx="1356" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Пациент" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-9" edge="1" parent="1" source="RJxkcMkM5KGCi_dYDeU0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RJxkcMkM5KGCi_dYDeU0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-10" connectable="0" parent="RJxkcMkM5KGCi_dYDeU0-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Данные пациента и договор" vertex="1">
+          <mxGeometry relative="1" x="-0.3111" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Заключение договора" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-13" edge="1" parent="1" source="RJxkcMkM5KGCi_dYDeU0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RJxkcMkM5KGCi_dYDeU0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-14" connectable="0" parent="RJxkcMkM5KGCi_dYDeU0-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Регистрация" vertex="1">
+          <mxGeometry relative="1" x="0.3556" y="-2" as="geometry">
+            <mxPoint x="11" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-4" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="Список пациентов" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-5" edge="1" parent="1" source="RJxkcMkM5KGCi_dYDeU0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.05;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" target="RJxkcMkM5KGCi_dYDeU0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-6" connectable="0" parent="RJxkcMkM5KGCi_dYDeU0-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Анкета" vertex="1">
+          <mxGeometry relative="1" x="-0.5238" as="geometry">
+            <mxPoint x="20" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-11" edge="1" parent="1" source="RJxkcMkM5KGCi_dYDeU0-2" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.675;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" target="RJxkcMkM5KGCi_dYDeU0-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="230" as="sourcePoint" />
+            <mxPoint x="160" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJxkcMkM5KGCi_dYDeU0-12" connectable="0" parent="RJxkcMkM5KGCi_dYDeU0-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Договор" vertex="1">
+          <mxGeometry relative="1" x="0.0745" y="-2" as="geometry">
+            <mxPoint x="3" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
